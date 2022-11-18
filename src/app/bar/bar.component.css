@@ -1,0 +1,29 @@
+#filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px 0px;
+}
+
+#filter #mes1{
+    margin-right: 10px;
+}
+
+#filter #mes2{
+    margin-right: 10px;
+}
+
+#filter select{
+    padding: 5px 20px;
+}
+
+#filter button{
+    padding: 7px 20px;
+    color: white;
+    background-color: black;
+
+    border: none;
+    border-radius: 5px;
+
+}

@@ -1,5 +1,6 @@
 # Charts
 
+Studying of graphics with angular and chart.js, programming dinamics charts.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.3.
 
 ## Development server

@@ -1,0 +1,12 @@
+<div id="filter">
+    <select name="mes1" id="mes1" (change)="onChangeSelect($event.target)">
+        <option *ngFor="let label of chartData.xLabels" [value]="label">{{ label }}</option>
+     </select>
+    <select name="mes2" id="mes2" (change)="onChangeSelect($event.target)">
+       <option *ngFor="let label of chartData.xLabels.slice(mes1)" [ngValue]="label" selected>{{ label }}</option>
+    </select>
+    <button (click)="onClick()">Aplicar</button>    
+</div>
+<div>
+    <canvas #chartBar style="min-height: 40vh;"></canvas>
+</div>
